@@ -1,0 +1,50 @@
+{
+  "name": "js-algorithm-basecamp",
+  "version": "0.0.1",
+  "repository": "https://github.com/js-for-algorithm/js-algorithm-basecamp.git",
+  "homepage": "https://github.com/js-for-algorithm/js-algorithm-basecamp#readme",
+  "description": "알고리즘 학습 베이스캠프 with JS",
+  "keywords": ["JS", "JavaScript", "Algorithm", "Problem Solving", "PS"],
+  "author": {
+    "name": "Danny Kim",
+    "email": "likepeppermint@gmail.com",
+    "url": "https://velog.io/@bigsaigon333"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix --cache **/*.js",
+    "format": "prettier --write --ignore-unknown .",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=12.18.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "prettier": "2.3.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": false,
+      "node": true,
+      "commonjs": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    }
+  },
+  "prettier": {},
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*": "prettier --write --ignore-unknown"
+  }
+}
