@@ -4,11 +4,17 @@
   "repository": "https://github.com/js-for-algorithm/js-algorithm-basecamp.git",
   "homepage": "https://github.com/js-for-algorithm/js-algorithm-basecamp#readme",
   "description": "알고리즘 학습 베이스캠프 with JS",
-  "keywords": ["JS", "JavaScript", "Algorithm", "Problem Solving", "PS"],
+  "keywords": [
+    "JS",
+    "JavaScript",
+    "Algorithm",
+    "Problem Solving",
+    "PS"
+  ],
   "author": {
-    "name": "Danny Kim",
-    "email": "likepeppermint@gmail.com",
-    "url": "https://velog.io/@bigsaigon333"
+    "name": "Moonhee kim",
+    "email": "hellomooneekim@gmail.com",
+    "url": "https://velog.io/@moonheekim0118"
   },
   "license": "MIT",
   "private": true,
