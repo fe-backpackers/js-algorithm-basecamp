@@ -1,5 +1,5 @@
 const result = require("fs")
-  .readFileSync(0, "utf-8")
+  .readFileSync(0, "utf8")
   .trim()
   .split("\n")
   .slice(1)

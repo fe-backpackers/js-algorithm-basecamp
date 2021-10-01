@@ -1,4 +1,4 @@
-const input = require("fs").readFileSync(0, "utf-8").trim().split("\n");
+const input = require("fs").readFileSync(0, "utf8").trim().split("\n");
 // N, M, K를 공백으로 구분하여 입력받기
 const [, M, K] = input[0].split(" ").map(Number);
 // N개의 수를 공백으로 구분하여 입력받아 정렬 후 가장 큰 수와 두번째로 큰 수 추출
