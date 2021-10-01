@@ -3,12 +3,8 @@ const result = require("fs")
   .trim()
   .split("\n")
   .slice(1)
-  .map((line) =>
-    line
-      .split(" ")
-      .map(Number)
-      .reduce((a, b) => Math.min(a, b))
-  )
+  .map((line) => line.split(" ").map(Number))
+  .map((nums) => Math.min(...nums))
   .reduce((a, b) => Math.max(a, b));
 
 console.log(result);
