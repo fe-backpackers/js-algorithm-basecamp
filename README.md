@@ -15,3 +15,4 @@
 ### 이코테 PART 03 11장 그리디 문제
 
 - [11-3 문자열 뒤집기](/src/js-for-coding-test/PART-03/11-그리디-문제/03.js)
+- [11-6 무지의 먹방 라이브](/src/js-for-coding-test/PART-03/11-그리디-문제/06.js)
