@@ -5,7 +5,7 @@
  * @author sunmon
  */
 
-const utils = require("../../lib/utils");
+const Utils = require("../../lib/utils");
 
 const generator = function* () {
   const input = yield; // 콘솔에서 입력받은 한 줄 저장
@@ -44,7 +44,7 @@ const solution = (n, m, charactor, board) => {
     }
 
     // 4방향 다 가지 못하고 원래대로 돌아온 경우는 뒤로 한칸 이동
-    if (utils.isSame(cur, [x, y, dir])) {
+    if (Utils.array.isSame(cur, [x, y, dir])) {
       [x, y] = [x - dx[dir], y - dy[dir]];
       if (board[x][y] === "1") break;
     }
@@ -53,4 +53,4 @@ const solution = (n, m, charactor, board) => {
   return counter;
 };
 
-utils.readConsole(generator);
+Utils.input.readConsole(generator);

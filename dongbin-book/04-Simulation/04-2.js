@@ -5,7 +5,7 @@
  * @author sunmon
  */
 
-const utils = require("../../lib/utils");
+const Utils = require("../../lib/utils");
 
 const generator = function* () {
   const n = yield; // 콘솔에서 입력받은 한 줄 저장
@@ -15,7 +15,7 @@ const generator = function* () {
 
 const solution = (n) => {
   let counter = 0;
-  for (let i = 0; i < +n; i++) {
+  for (let i = 0; i <= +n; i++) {
     for (let j = 0; j < 60; j++) {
       for (let k = 0; k < 60; k++) {
         if (("" + i + j + k).includes("3")) counter += 1;
@@ -26,4 +26,4 @@ const solution = (n) => {
   return counter;
 };
 
-utils.readConsole(generator);
+Utils.input.readConsole(generator);

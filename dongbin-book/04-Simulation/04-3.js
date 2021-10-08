@@ -5,7 +5,7 @@
  * @author sunmon
  */
 
-const utils = require("../../lib/utils");
+const Utils = require("../../lib/utils");
 
 const generator = function* () {
   const n = yield; // 콘솔에서 입력받은 한 줄 저장
@@ -14,7 +14,7 @@ const generator = function* () {
 };
 
 const solution = (n) => {
-  const [col, row] = [utils.unicodeDistance("a", n[0]), +n[1]];
+  const [col, row] = [Utils.string.unicodeDistance("a", n[0]), +n[1]];
   return [
     [1, 2],
     [1, -2],
@@ -26,8 +26,9 @@ const solution = (n) => {
     [-2, -1],
   ].filter(
     (d) =>
-      utils.isInRange(col + d[0], 1, 8) && utils.isInRange(row + d[1], 1, 8)
+      Utils.math.isInRange(col + d[0], 1, 8) &&
+      Utils.math.isInRange(row + d[1], 1, 8)
   ).length;
 };
 
-utils.readConsole(generator);
+Utils.input.readConsole(generator);

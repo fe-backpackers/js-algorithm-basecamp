@@ -5,7 +5,7 @@
  * @author sunmon
  */
 
-const utils = require("../../lib/utils");
+const Utils = require("../../lib/utils");
 
 const generator = function* () {
   const n = yield; // 콘솔에서 입력받은 한 줄 저장
@@ -20,12 +20,12 @@ const solution = (n, m) => {
   return m.split(" ").reduce(
     (prev, cur) => {
       return [
-        utils.wrap(prev[0] + dir[cur][0], 1, +n),
-        utils.wrap(prev[1] + dir[cur][1], 1, +n),
+        Utils.math.wrap(prev[0] + dir[cur][0], 1, +n),
+        Utils.math.wrap(prev[1] + dir[cur][1], 1, +n),
       ];
     },
     [1, 1]
   );
 };
 
-utils.readConsole(generator);
+Utils.input.readConsole(generator);
