@@ -6,7 +6,7 @@ function solution(N) {
     N--;
     n += 3600;
   }
-  if (N >= 23) {
+  if (N >= 15) {
     N--;
     n += 3600;
   }
