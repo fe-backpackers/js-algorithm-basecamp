@@ -22,3 +22,17 @@
 [문자열-뒤집기]: /src/ch11-Greedy/03/solution.js
 [만들-수-없는-금액]: /src/ch11-Greedy/04/solution.js
 [무지의-먹방-라이브]: /src/ch11-Greedy/06/solution.js
+
+---
+
+## 2주차 구현
+
+2021.10.04 ~ 2021.10.10
+
+- 럭키 스트레이크 [🧐 소스코드][럭키-스트레이크]
+- 문자열 재정렬 [🧐 소스코드][문자열-재정렬]
+- 문자열 압축 [🧐 소스코드][문자열-압축]
+
+[럭키-스트레이크]: /src/ch12-Simulation/01/solution.js
+[문자열-재정렬]: /src/ch12-Simulation/02/solution.js
+[문자열-압축]: /src/ch12-Simulation/03/solution.js
