@@ -23,7 +23,7 @@ function solution_02(n, m, k, nums) {
   const [largest, secLargest] = nums.sort((a, b) => b - a);
   let answer = 0;
 
-  let largestCount = (m / (k + 1)) * k; // 반복수열에 대한 횟수
+  let largestCount = parseInt(m / (k + 1)) * k; // 반복수열에 대한 횟수
   largestCount += m % (k + 1); // 반복수열을 제외한 나머지 횟수
   let secLargestCount = m - largestCount; //두번째 큰 수의 총 횟수
   answer += largestCount * largest;

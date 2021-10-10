@@ -14,15 +14,12 @@ const solution = (n, k) => {
   let result = 0;
   let target = 0;
 
-  while (true) {
-    target = (n / k) * k; // n을 k의 배수로 만들기
+  while (n >= k) {
+    target = parseInt(n / k) * k; // n을 k의 배수로 만들기
     result += n - target; // 1을 빼는 연산횟수
-    n = target; //
-    if (n < k) {
-      break;
-    }
-    result += 1; // n/k연산
+    n = target;
     n /= k;
+    result += 1;
   }
 
   result += n - 1; //남은 수에서 1이 되기 까지 연산
