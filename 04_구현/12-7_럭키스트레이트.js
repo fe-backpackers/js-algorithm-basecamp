@@ -3,7 +3,7 @@ const assert = require("assert");
 function solution(N) {
   const chars = String(N).split("");
   const h = chars.length / 2;
-  return chars.slice(0, h).reduce((sum, c) => sum + Number(c), 0) ===
+  return chars.slice(0, h).map(Number).reduce((sum, c) => sum + c, 0) ===
     chars.slice(h).reduce((sum, c) => sum + Number(c), 0)
     ? "LUCKY"
     : "READY";
