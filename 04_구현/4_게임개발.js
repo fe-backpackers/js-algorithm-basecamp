@@ -1,13 +1,14 @@
 const assert = require("assert");
 
 function solution(cur, dir, map) {
-  const st = [cur];
-  let ret = 1;
-  while ((cur = st.pop())) {
+  let ret = 0;
+  while (map[cur[1]]?.[cur[0]] === 0) {
+    ret++;
     map[cur[1]][cur[0]] = 1;
     let tries = 0;
+    let dx, dy;
     while (tries++ < 4) {
-      const [dx, dy] = [
+      [dx, dy] = [
         [0, -1],
         [1, 0],
         [0, 1],
@@ -15,10 +16,12 @@ function solution(cur, dir, map) {
       ][(dir = (dir + 3) % 4)];
       const next = [cur[0] + dx, cur[1] + dy];
       if (map[next[1]]?.[next[0]] === 0) {
-        ret++;
-        st.push(cur, (cur = next));
+        cur = next;
         break;
       }
+    }
+    if (tries === 5) {
+      cur = [cur[0] - dx, cur[1] - dy];
     }
   }
   return ret;
@@ -57,15 +60,15 @@ assert.equal(
     [1, 0, 0, 0, 1],
     [1, 1, 0, 1, 1],
   ]),
-  5
+  2
 );
 assert.equal(
   solution([2, 1], 0, [
-    [1, 1, 0, 1, 1],
+    [1, 1, 1, 1, 1],
+    [1, 0, 0, 0, 0],
     [1, 0, 0, 1, 1],
-    [1, 1, 0, 1, 1],
-    [0, 0, 0, 0, 1],
+    [1, 1, 0, 0, 0],
     [1, 1, 0, 1, 1],
   ]),
-  9
+  7
 );
