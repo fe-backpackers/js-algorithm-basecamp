@@ -19,6 +19,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "dev": "nodemon",
     "lint": "eslint --fix --cache **/*.js",
     "format": "prettier --write --ignore-unknown .",
     "prepare": "husky install"
@@ -26,11 +27,13 @@
   "engines": {
     "node": ">=12.18.3"
   },
+  "types": "module",
   "devDependencies": {
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": ">=6",
     "lint-staged": ">=10",
+    "nodemon": "^2.0.13",
     "prettier": "2.3.1"
   },
   "eslintConfig": {
