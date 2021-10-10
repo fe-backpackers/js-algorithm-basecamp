@@ -1,6 +1,5 @@
 function solution(point) {
   const nLengthHalf = point.length / 2;
-  nLengthHalf;
   const left = point
     .slice(0, nLengthHalf)
     .split("")
