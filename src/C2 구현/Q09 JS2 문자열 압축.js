@@ -29,7 +29,7 @@ function solution(s) {
     answer.push(sDuplicateArr.length);
   }
 
-  return Math.min.apply(null, answer);
+  return Math.min(...answer);
 }
 const s = "abcabcab";
 // const s = "abcabcabcabcdededededede";
