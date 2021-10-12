@@ -18,12 +18,10 @@ const solution = (n, m) => {
   const dir = { R: [0, 1], L: [0, -1], U: [-1, 0], D: [1, 0] };
 
   return m.split(" ").reduce(
-    (prev, cur) => {
-      return [
+    (prev, cur) => ([
         Utils.math.wrap(prev[0] + dir[cur][0], 1, +n),
         Utils.math.wrap(prev[1] + dir[cur][1], 1, +n),
-      ];
-    },
+      ])
     [1, 1]
   );
 };
