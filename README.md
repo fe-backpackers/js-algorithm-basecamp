@@ -29,7 +29,7 @@
 - [실전 4-3 왕실의 나이트](/src/js-for-coding-test/PART-02/04-구현/03.js)
 - [실전 4-4 게임 개발](/src/js-for-coding-test/PART-02/04-구현/04.js)
 
-### 3주차 DFS/BFS
+## 3주차 DFS/BFS 알고리즘
 
 ### 이코테 PART 02 5장 DFS/BFS
 
