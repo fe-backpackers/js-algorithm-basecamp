@@ -166,7 +166,7 @@ const bfs = (graph, start) => {
     const curr = q[head++];
     result.push(curr); // ACTION
 
-    // 현재 노드와 연결된 다른 노드를 재귀적으로 방문
+    // 현재 노드와 연결된 다른 노드를 순차적으로 방문
     for (const next of graph[v]) {
       if (visited[next]) continue;
 
