@@ -149,17 +149,33 @@ graph[v]
 3. 2번의 과정을 더 이상 수행할 수 없을 때까지 반복한다.
 
 ```js
-const result = [];
+const bfs = (graph, start) => {
+  const result = [];
+  const visited = /* visited 초기화 */;
 
-// 큐 정의
-const q = [];
-let head = 0;
+  // 큐 선언
+  const q = [];
+  let head = 0;
 
-// 큐에 삽입 -> 방문 처리
-q.push(start);
-visited[start] = true;
+  // 처음 노드를 큐에 삽입 -> 방문 처리
+  q.push(start);
+  visited[start] = true;
 
-// 큐에서 하나의 원소를 뽑기 -> ACTION
-const curr = q[head++];
-result.push(curr); // ACTION
+  while (q.length - head > 0) {
+    // 큐에서 하나의 원소를 뽑기 -> ACTION
+    const curr = q[head++];
+    result.push(curr); // ACTION
+
+    // 현재 노드와 연결된 다른 노드를 재귀적으로 방문
+    for (const next of graph[v]) {
+      if (visited[next]) continue;
+
+      // 노드를 큐에 삽입 -> 방문 처리
+      q.push(next);
+      visited[next] = true;
+    }
+  }
+
+  return result;
+};
 ```
