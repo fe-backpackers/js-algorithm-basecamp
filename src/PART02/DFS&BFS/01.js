@@ -11,4 +11,4 @@ stack.push(4);
 stack.pop();
 
 console.log(stack); // [5,2,3,1]
-console.log(stack.splice(0).reverse()) // [1,3,2,5]
+console.log(stack.slice().reverse()) // [1,3,2,5]
