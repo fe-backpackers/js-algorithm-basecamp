@@ -35,6 +35,7 @@
 
 - [이론 정리](/docs/05-DFS_BFS.md)
 - [스택, 큐, 덱 자료구조](/docs/data-structure/stack_queue_deque.md)
+- [힙(우선순위 큐) 자료구조](/docs/data-structure/heap.md)
 
 - [5-1 스택 예제](/src/js-for-coding-test/PART-02/05-DFS_BFS/01.js)
 - [5-2 큐 예제](/src/js-for-coding-test/PART-02/05-DFS_BFS/02.js)
@@ -47,3 +48,8 @@
 - [5-9 BFS 예제](/src/js-for-coding-test/PART-02/05-DFS_BFS/09.js)
 - [실전 5-10 음료수 얼려 먹기](/src/js-for-coding-test/PART-02/05-DFS_BFS/10.js)
 - [실전 5-11 미로 탈출](/src/js-for-coding-test/PART-02/05-DFS_BFS/11.js)
+
+### 이코테 PART 03 13장 DFS/BFS 문제
+
+- [A15 특정 거리의 도시 찾기](/src/js-for-coding-test/PART-03/13-DFS_BFS-문제/15.js)
+- [A17 경쟁적 전염](/src/js-for-coding-test/PART-03/13-DFS_BFS-문제/17.js)
