@@ -11,4 +11,4 @@ queue.push(4);
 queue.shift();
 
 console.log(queue); // [3,7,1,4]
-console.log(queue.splice(0).reverse()) // [4,1,7,3]
+console.log(queue.slice().reverse()) // [4,1,7,3]
