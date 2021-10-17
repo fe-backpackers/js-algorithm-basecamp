@@ -1,4 +1,4 @@
-module.exports = class Queue {
+class Queue {
   #queue = {};
 
   constructor() {
@@ -11,9 +11,13 @@ module.exports = class Queue {
   }
 
   dequeue() {
-    if (this.tail === this.head) return undefined;
+    if (this.tail === this.head) return undefined; // 문제에 따라 수정필요
     const element = this.#queue[this.head];
     delete this.#queue[this.head++];
     return element;
   }
-};
+  length() {
+    return this.#queue.length;
+  }
+}
+module.exports = Queue;
