@@ -30,8 +30,8 @@ class Stack {
 -a linear data structure(operations can ahppen at 1 end, beginning of the queue)
 
 ##### fundamental operations
-1.enqueue—inserting or pushing a new element to the queue.
-2.dequeue—removing the oldest element from the queue.
+1. enqueue—inserting or pushing a new element to the queue.
+2. dequeue—removing the oldest element from the queue.
 
 ```
 let stack = [];
