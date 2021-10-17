@@ -11,7 +11,7 @@
 2.pop—This operation is responsible for removing the most recent element from the stack.
 
 
-```
+```js
 class Stack {
  constructor() {
    this.stack = [];
