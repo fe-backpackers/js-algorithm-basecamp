@@ -2,9 +2,9 @@
 ### BFS & DFS 개념 학습 ✨ (동빈책 + 구글링)
 
 #### Stack in JS
--Last-In-First-Out (LIFO)
--real-world example is a stack of plates
--a linear data structure (arranged in a sequential order,operations can ahppen at 1 end)
+- Last-In-First-Out (LIFO)
+- real-world example is a stack of plates
+- a linear data structure (arranged in a sequential order,operations can ahppen at 1 end)
 
 ##### fundamental operations
 1.push—This operation is responsible for inserting or pushing a new element to the stack.
