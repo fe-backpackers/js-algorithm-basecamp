@@ -32,7 +32,6 @@ const solution = (n, m, graph) => {
       if (graph[nx][ny] === 0) continue;
 
       if (graph[nx][ny] === 1) {
-        //괴물이 없다.
         graph[nx][ny] = graph[x][y] + 1;
         q.enqueue([nx, ny]);
       }
