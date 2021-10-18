@@ -16,8 +16,18 @@ class Queue {
     delete this.#queue[this.head++];
     return element;
   }
+
   length() {
-    return this.#queue.length;
+    return Object.keys(this.#queue).length;
   }
+
+  icrSort() {
+    if (!this.length()) return this.#queue;
+    return Array.isArray(this.#queue[1])
+      ? [...Object.entries(this.#queue)].sort((a, b) => a[1][0] - b[1][0])
+      : [...Object.entries(this.#queue)].sort((a, b) => a[1] - b[1]);
+  }
+  descSort() {}
 }
+
 module.exports = Queue;
