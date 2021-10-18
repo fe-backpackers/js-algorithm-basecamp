@@ -11,7 +11,7 @@ class Queue {
   }
 
   dequeue() {
-    if (this.tail === this.head) return undefined; // 문제에 따라 수정필요
+    if (this.tail === this.head) return null;
     const element = this.#queue[this.head];
     delete this.#queue[this.head++];
     return element;
