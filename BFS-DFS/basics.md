@@ -26,20 +26,31 @@ class Stack {
 ```
 
 #### Queue
--works based on the principle of first in first out (FIFO)
--a linear data structure(operations can ahppen at 1 end, beginning of the queue)
+- works based on the principle of first in first out (FIFO)
+- a linear data structure(operations can ahppen at 1 end, beginning of the queue)
 
 ##### fundamental operations
 1. enqueue—inserting or pushing a new element to the queue.
 2. dequeue—removing the oldest element from the queue.
 
-```
+```js
 let stack = [];
 const enqueue = (item) => queue.push(item);
 const dequeue = () => queue.shift();
 ```
 
 #### Recursion
+- a recursive function calls itself until it doesn't.
+- always has a 'stop' condition to stop the function from calling itself.
+- 
+```js
+function sumOfDigits(num) {
+  if (num == 0) {
+    return 0; //stop condition
+  }
+  return (num % 10) + sumOfDigits(Math.floor(num / 10)); //recursive part
+}
+```
 
 
 #### Referenecs
