@@ -51,7 +51,9 @@
       "sourceType": "module"
     }
   },
-  "prettier": {},
+  "prettier": {
+    "printWidth": 60
+  },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*": "prettier --write --ignore-unknown"
