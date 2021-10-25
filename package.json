@@ -49,9 +49,15 @@
     "parserOptions": {
       "ecmaVersion": 12,
       "sourceType": "module"
+    },
+    "rules": {
+      "no-constant-condition": "off",
+      "no-inner-declarations": "off"
     }
   },
-  "prettier": {},
+  "prettier": {
+    "printWidth": 60
+  },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*": "prettier --write --ignore-unknown"
