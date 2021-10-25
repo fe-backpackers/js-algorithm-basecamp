@@ -1,10 +1,3 @@
-const divide = (a, b) => {
-  const result = Math.floor(Math.abs(a) / b);
-  const sign = Math.abs(a) === a ? 1 : -1;
-
-  return result === 0 ? 0 : result * sign;
-};
-
 const compute = (a, b, sign) => {
   switch (sign) {
     case "+":
@@ -14,7 +7,7 @@ const compute = (a, b, sign) => {
     case "*":
       return a * b;
     case "/":
-      return divide(a, b);
+      return parseInt(a / b, 10) || 0;
   }
 };
 
