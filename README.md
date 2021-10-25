@@ -31,6 +31,8 @@
 
 ## 3주차 DFS/BFS 알고리즘
 
+- 2021-10-11 Mon ~ 2021-10-17 Sun
+
 ### 이코테 PART 02 5장 DFS/BFS
 
 - [이론 정리](/docs/05-DFS_BFS.md)
@@ -54,3 +56,7 @@
 - [A15 특정 거리의 도시 찾기](/src/js-for-coding-test/PART-03/13-DFS_BFS-문제/15.js)
 - [A17 경쟁적 전염](/src/js-for-coding-test/PART-03/13-DFS_BFS-문제/17.js)
 - [A19 연산자 끼워 넣기](/src/js-for-coding-test/PART-03/13-DFS_BFS-문제/19.js)
+
+## 5주차 정렬 알고리즘
+
+- 2021-10-25 Mon ~ 2021-10-31 Sun
