@@ -2,11 +2,11 @@
 
 ## 1주차 그리디 알고리즘
 
-- 2021.09.27 ~ 2021.10.03
+- 2021.09.27 Mon ~ 2021.10.03 Sun
 
 ### 이코테 PART 02 3장 그리디
 
-- [이론 정리](/docs/그리디.md)
+- [이론 정리](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/Yeonlisa/docs/%EA%B7%B8%EB%A6%AC%EB%94%94.md)
 - [예제 3-1 거스름돈 문제](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/Yeonlisa/src/PART02/%EA%B7%B8%EB%A6%AC%EB%94%94/01.js)
 - [실전 3-2 동빈이의 큰 수의 법칙](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/Yeonlisa/src/PART02/%EA%B7%B8%EB%A6%AC%EB%94%94/02.js)
 - [실전 3-3 숫자 카드게임](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/Yeonlisa/src/PART02/%EA%B7%B8%EB%A6%AC%EB%94%94/03.js)
@@ -18,7 +18,7 @@
 
 ### 이코테 PART 02 4장 구현
 
-- [이론 정리](/docs/구현.md)
+- [이론 정리](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week2/docs/%EA%B5%AC%ED%98%84.md)
 - [예제 4-1 상하좌우](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week2/src/PART02/%EA%B5%AC%ED%98%84/01.js)
 - [실전 4-2 시각](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week2/src/PART02/%EA%B5%AC%ED%98%84/02.js)
 - [실전 4-3 왕실의 나이트](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week2/src/PART02/%EA%B5%AC%ED%98%84/03.js)
@@ -31,8 +31,8 @@
 
 ### 이코테 PART 02 5장 DFS/BFS
 
-- [스택, 큐, 재귀함수 이론 정리](/docs/자료구조.md)
-- [DFS/BFS 이론 정리](/docs/DFS&BFS.md)
+- [스택, 큐, 재귀함수 이론 정리](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week3/docs/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
+- [DFS/BFS 이론 정리](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week3/docs/DFS%26BFS.md)
 
 - [5-1 스택 예제](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week3/src/PART02/DFS%26BFS/01.js)
 - [5-2 큐 예제](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week3/src/PART02/DFS%26BFS/02.js)
@@ -72,3 +72,20 @@
 
 - [13-15 특정 거리의 도시 찾기](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week4/src/PART03/DFS%26BFS/01.js)
 - [13-18 괄호 변환](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week4/src/PART03/DFS%26BFS/02.js)
+
+## 5주차 정렬 알고리즘
+
+- 2021-10-25 Mon ~ 2021-10-31 Sun
+
+### 이코테 PART 02 6장 정렬
+
+- [이론 정리](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/docs/%EC%A0%95%EB%A0%AC.md)
+- [실전 6-2 위에서 아래로](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/src/PART02/%EC%A0%95%EB%A0%AC/01.js)
+- [실전 6-3 성적이 낮은 순서로 학생 출력하기](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/src/PART02/%EC%A0%95%EB%A0%AC/02.js)
+- [실전 6-4 두 배열의 원소 교체](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/src/PART02/%EC%A0%95%EB%A0%AC/03.js)
+
+### 이코테 PART 03 14장 정렬 기출문제
+- [14-23 국영수](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/src/PART03/%EC%A0%95%EB%A0%AC/01.js)
+- [14-24 안테나](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/src/PART03/%EC%A0%95%EB%A0%AC/02.js)
+- [14-25 실패율](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/src/PART03/%EC%A0%95%EB%A0%AC/03.js)
+- [14-26 카드 정렬하기](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/src/PART03/%EC%A0%95%EB%A0%AC/04.js)
