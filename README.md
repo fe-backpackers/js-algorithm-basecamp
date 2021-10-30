@@ -38,7 +38,6 @@
 - [이론 정리](/docs/05-DFS_BFS.md)
 - [스택, 큐, 덱 자료구조](/docs/data-structure/stack_queue_deque.md)
 - [힙(우선순위 큐) 자료구조](/docs/data-structure/heap.md)
-
 - [5-1 스택 예제](/src/js-for-coding-test/PART-02/05-DFS_BFS/01.js)
 - [5-2 큐 예제](/src/js-for-coding-test/PART-02/05-DFS_BFS/02.js)
 - [5-3 재귀 함수 예제](/src/js-for-coding-test/PART-02/05-DFS_BFS/03.js)
