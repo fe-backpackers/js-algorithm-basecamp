@@ -17,6 +17,7 @@ function solution(n, point) {
     if (a.english < b.english) return -1;
     if (a.math > b.math) return -1;
     if (a.math < b.math) return 1;
+    return 0;
   });
   return scoreArray.map((val) => val.name);
 }
