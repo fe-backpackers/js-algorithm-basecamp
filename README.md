@@ -36,3 +36,23 @@
 [럭키-스트레이크]: /src/ch12-Simulation/01/solution.js
 [문자열-재정렬]: /src/ch12-Simulation/02/solution.js
 [문자열-압축]: /src/ch12-Simulation/03/solution.js
+
+## 5주차 정렬
+
+2021.10.04 ~ 2021.10.10
+
+- 정렬 개념 정리 [🧐 소스코드][정렬-개념-정리]
+- 선택 정렬 구현 [🧐 소스코드][선택-정렬-구현]
+- 삽입 정렬 구현 [🧐 소스코드][삽입-정렬-구현]
+- 계수 정렬 구현 [🧐 소스코드][계수-정렬-구현]
+- 위에서 아래로 [🧐 소스코드][위에서-아래로]
+- 국영수 [🧐 소스코드][국영수]
+- 실패율 [🧐 소스코드][실패율]
+
+[위에서-아래로]: /src/ch6-Sort/01/02.js
+[국영수]: /src/ch14-Sort/23/solution.js
+[실패율]: /src/ch14-Sort/25/solution.js
+[정렬-개념-정리]: /src/ch6-Sort/sort.md
+[선택-정렬-구현]: /src/lib/selectionSort.js
+[계수-정렬-구현]: /src/lib/countingSort.js
+[삽입 정렬 구현]: /src/lib/insertionSort.js
