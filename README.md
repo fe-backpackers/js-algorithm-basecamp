@@ -31,12 +31,13 @@
 
 ## 3주차 DFS/BFS 알고리즘
 
+- 2021-10-11 Mon ~ 2021-10-17 Sun
+
 ### 이코테 PART 02 5장 DFS/BFS
 
 - [이론 정리](/docs/05-DFS_BFS.md)
 - [스택, 큐, 덱 자료구조](/docs/data-structure/stack_queue_deque.md)
 - [힙(우선순위 큐) 자료구조](/docs/data-structure/heap.md)
-
 - [5-1 스택 예제](/src/js-for-coding-test/PART-02/05-DFS_BFS/01.js)
 - [5-2 큐 예제](/src/js-for-coding-test/PART-02/05-DFS_BFS/02.js)
 - [5-3 재귀 함수 예제](/src/js-for-coding-test/PART-02/05-DFS_BFS/03.js)
@@ -54,3 +55,16 @@
 - [A15 특정 거리의 도시 찾기](/src/js-for-coding-test/PART-03/13-DFS_BFS-문제/15.js)
 - [A17 경쟁적 전염](/src/js-for-coding-test/PART-03/13-DFS_BFS-문제/17.js)
 - [A19 연산자 끼워 넣기](/src/js-for-coding-test/PART-03/13-DFS_BFS-문제/19.js)
+
+## 5주차 정렬 알고리즘
+
+- 2021-10-25 Mon ~ 2021-10-31 Sun
+
+### 이코테 PART 02 6장 정렬
+
+- [이론 정리](/docs/06-정렬.md)
+
+### 이코테 PART 03 14장 정렬 문제
+
+- [A25 실패율](/src/js-for-coding-test/PART-03/14-정렬-문제/25.js)
+- [A26 카드 정렬하기](/src/js-for-coding-test/PART-03/14-정렬-문제/26.js)
