@@ -68,3 +68,15 @@
 
 - [A25 실패율](/src/js-for-coding-test/PART-03/14-정렬-문제/25.js)
 - [A26 카드 정렬하기](/src/js-for-coding-test/PART-03/14-정렬-문제/26.js)
+
+## 6주차 이진 탐색 알고리즘
+
+- 2021-11-01 Mon ~ 2021-11-07 Sun
+
+### 이코테 PART 02 7장 이진 탐색
+
+- [이론 정리](/docs/07-이진_탐색.md)
+
+### 이코테 PART 03 15장 이진 탐색 문제
+
+- [A29 마이구미](/src/js-for-coding-test/PART-03/15-이진_탐색-문제/29.ts)
