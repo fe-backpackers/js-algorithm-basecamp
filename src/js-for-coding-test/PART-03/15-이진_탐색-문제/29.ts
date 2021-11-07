@@ -9,9 +9,9 @@ const coords = input
   .sort((a, b) => a - b);
 
 const compute = (arr: number[], step: number) => {
+  let prev = arr[0]; // 첫번째 집에 공유기를 설치했다고 가정하는 이유는 첫번째 집에 공유기를 설치하였을 때 최적해가 보장되기 때문 https://www.acmicpc.net/board/view/50802
   let count = 1;
 
-  let prev = arr[0];
   for (let i = 1; i < arr.length; i++) {
     const curr = arr[i];
 
@@ -26,7 +26,7 @@ const compute = (arr: number[], step: number) => {
 };
 
 let start = 1;
-let end = coords[coords.length - 1];
+let end = coords[coords.length - 1] - coords[0];
 let answer = 0;
 
 while (start <= end) {
