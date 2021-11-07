@@ -3,16 +3,16 @@ const binarySearch = (
   compare: (_arr: number[], i: number) => number
 ) => {
   let start = 0;
-  let end = a.length - 1;
+  let end = arr.length - 1;
 
   while (start <= end) {
     const mid = Math.floor((start + end) / 2);
 
-    if (compare(a, mid) === 0) {
+    if (compare(arr, mid) === 0) {
       return mid;
     }
 
-    if (compare(a, mid) > 0) {
+    if (compare(arr, mid) > 0) {
       start = mid + 1;
       continue;
     }
