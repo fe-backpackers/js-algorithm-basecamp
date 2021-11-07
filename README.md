@@ -79,4 +79,5 @@
 
 ### 이코테 PART 03 15장 이진 탐색 문제
 
+- [A28 고정점 찾기](/src/js-for-coding-test/PART-03/15-이진_탐색-문제/28.ts)
 - [A29 공유기 설치](/src/js-for-coding-test/PART-03/15-이진_탐색-문제/29.ts)
