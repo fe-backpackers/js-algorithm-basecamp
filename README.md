@@ -81,3 +81,11 @@
 
 - [A28 고정점 찾기](/src/js-for-coding-test/PART-03/15-이진_탐색-문제/28.ts)
 - [A29 공유기 설치](/src/js-for-coding-test/PART-03/15-이진_탐색-문제/29.ts)
+
+## 7주차 다이나믹 프로그래밍 알고리즘
+
+- 2021-11-08 Mon ~ 2021-11-14 Sun
+
+### 이코테 PART 03 16장 다이나믹 프로그래밍 문제
+
+- [A33](/src/js-for-coding-test/PART-03/16-다이나믹_프로그래밍-문제/33.ts)
