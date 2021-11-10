@@ -88,4 +88,5 @@
 
 ### 이코테 PART 03 16장 다이나믹 프로그래밍 문제
 
-- [A33](/src/js-for-coding-test/PART-03/16-다이나믹_프로그래밍-문제/33.ts)
+- [A32 정수 삼각형](/src/js-for-coding-test/PART-03/16-다이나믹_프로그래밍-문제/32.ts)
+- [A33 퇴사](/src/js-for-coding-test/PART-03/16-다이나믹_프로그래밍-문제/33.ts)
