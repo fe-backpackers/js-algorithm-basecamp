@@ -90,3 +90,13 @@
 - [14-24 안테나](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/src/PART03/%EC%A0%95%EB%A0%AC/02.js)
 - [14-25 실패율](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/src/PART03/%EC%A0%95%EB%A0%AC/03.js)
 - [14-26 카드 정렬하기](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week5/src/PART03/%EC%A0%95%EB%A0%AC/04.js)
+
+## 6주차 이진 탐색 알고리즘
+
+- 2021-11-01 Mon ~ 2021-11-07 Sun
+
+### 이코테 PART 02 7장 이진 탐색
+
+- [이론 정리](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week6/docs/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89.md)
+- [실전 7-2 부품 찾기](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week6/src/PART02/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89/01.js)
+- [실전 7-3 떡볶이 떡 만들기](https://github.com/Yeonlisa/js-algorithm-basecamp/blob/week6/src/PART02/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89/02.js)
