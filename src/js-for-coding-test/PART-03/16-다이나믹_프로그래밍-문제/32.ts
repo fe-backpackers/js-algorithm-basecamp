@@ -4,9 +4,9 @@ const [, ...triangle]: number[][] = require("fs")
   .split("\n")
   .map((line: string) => line.split(" ").map(Number));
 
-const dp = Array(triangle.length)
+const dp = Array<number>(triangle.length)
   .fill(0)
-  .map((_, i) => Array(i + 1).fill(0));
+  .map<number[]>((_, i) => Array(i + 1).fill(0));
 
 dp[0][0] = triangle[0][0];
 for (let i = 1; i < triangle.length; i++) {
