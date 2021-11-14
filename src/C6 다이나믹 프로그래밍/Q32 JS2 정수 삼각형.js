@@ -3,12 +3,11 @@ function solution(n, triangle) {
   let temp = [];
 
   for (let i = 1; i < n; i++) {
-    temp = triangle[i].map((val, idx) => {
+    pre = triangle[i].map((val, idx) => {
       if (idx === 0) return pre[0] + val;
       if (idx === i) return pre[i - 1] + val;
       return Math.max(pre[idx - 1], pre[idx]) + val;
     });
-    pre = [...temp];
   }
 
   return Math.max(...pre);
