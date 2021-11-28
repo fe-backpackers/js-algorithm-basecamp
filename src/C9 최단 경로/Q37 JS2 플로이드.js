@@ -16,6 +16,12 @@ function solution(n, m, cities) {
       }
     }
   }
+  for (let a = 0; a < n; a++) {
+    for (let b = 0; b < n; b++) {
+      graph[a][b] === Infinity && (graph[a][b] = 0);
+    }
+  }
+
   return graph;
 }
 const n = 5;
